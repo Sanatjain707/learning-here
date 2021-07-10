@@ -1,0 +1,111 @@
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+}
+body{
+
+	background-color: yellow;
+	color:green;
+	text-align: center;
+	font-size: x-large;
+}
+
+section{
+	border: solid;
+	border-color: black;
+	border-width: 5px;
+	background-color: purple;
+	height: 450px;
+	clear: left;
+
+
+}	
+
+section div{
+
+float: left;
+clear: right;
+height:350px ;
+width: 250px;
+margin: 50px;
+margin-left: 100px;
+
+
+}
+
+
+
+section div img{
+	border : solid;
+	border-color: black;
+	border-width: 3px;
+
+
+}
+
+section div span{
+
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	background-color: black;
+	color : yellow;
+	width:200px ;
+	height:40px ;
+	float: right;
+	position: relative;
+	bottom: 355px;
+	left: 49px;
+
+
+}
+footer{
+ text-align: center;
+}
+
+
+@media (min-width: 1027px) and (max-width: 1226px){
+
+section{
+	height: 900px;
+}
+
+#pasta{
+
+	margin-left: 300px;
+}
+
+#momose img{
+
+width: 900px;
+
+}
+
+#momose span{
+
+	left: 647px;
+	border-color: black;
+}
+
+
+}
+
+@media (min-width: 0px) and (max-width: 1026px){
+
+section{
+
+	height: 1300px;
+
+}
+section div{
+	margin-left: 25px;
+	margin-bottom: 25px;
+
+}
+
+#momose span{
+	width: 250px;
+}
+
+}
