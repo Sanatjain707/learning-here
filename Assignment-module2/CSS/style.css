@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
 box-sizing: border-box;
 margin: 0px;
@@ -109,3 +110,129 @@ section div{
 }
 
 }
+=======
+<<<<<<< HEAD
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: yellow;
+	color: green;
+	text-align: center;
+	
+}
+
+section{
+clear: left;
+width:max;
+height: 500px;
+border: solid;
+border-width: 5px;
+border-color: black;
+background-color: purple;
+}
+
+section div{
+
+color: greenyellow;
+font-size: 20px;
+width: 300px;
+height: 400px;
+border: solid;
+border-width: 3px;
+border-color:black;
+float: left;
+margin:50px;
+}
+
+
+section div span{
+
+	background-color: darkred;
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	width: 155px;
+	height: 35px;
+	font-size: x-large;
+	font-style: italic;
+	margin-bottom: 200px;
+	position: relative;
+	bottom: 400px;
+	left: 80px;
+}
+
+
+
+footer{
+font-size: xx-large;
+}
+
+@media(max-width="992"){
+
+
+	
+}
+=======
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: yellow;
+	color: green;
+	text-align: center;
+	
+}
+
+
+section div{
+
+color: yellow;
+font-size: 20px;
+width: 300px;
+height: 400px;
+border: solid;
+border-width: 3px;
+border-color:black;
+float: left;
+margin:50px;
+clear: right;
+
+}
+
+
+section div span{
+
+	float: right;
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	width: 150px;
+	height: 35px;
+	font-size: x-large;
+	font-style: italic;
+	margin-bottom: 200px;
+}
+
+
+section{
+clear: left;
+width:max ;
+height: 500px;
+border: solid;
+border-width: 5px;
+border-color: black;
+background-color: purple;
+}
+
+
+footer{
+font-size: xx-large;
+}
+
+>>>>>>> c82e7c884b5427dd19a228cb74285250b0fb2b5d
+>>>>>>> d940fd2974a0ac6762c45859fe684dda9b030b7a
