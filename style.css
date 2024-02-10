@@ -1,0 +1,25 @@
+
+.visits{
+    position: absolute;
+    background: #f04;
+    font-size: 20px;
+    color: #fff;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 500; 
+    animation: 13s ease-in 1s infinite here;
+}
+
+@keyframes  here {
+0% {
+transform: translateX(-110%);
+}
+100% {
+transform: translateX(500%);
+
+}
+}
